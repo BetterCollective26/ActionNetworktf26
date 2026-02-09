@@ -20,5 +20,16 @@
     "created_at_utc": "2026-02-09 20:54:15 UTC",
     "bundle_path": "bundles/test_super_bowl-an.html.json",
     "has_bundle": true
+  },
+  "testtable902.html": {
+    "brand": "Action Network",
+    "table_title": "testtable902",
+    "file": "testtable902.html",
+    "pages_url": "https://bettercollective26.github.io/ActionNetworktf26/testtable902.html",
+    "github_repo_url": "https://github.com/bettercollective26/ActionNetworktf26",
+    "created_by": "gauthambc",
+    "created_at_utc": "2026-02-09 20:56:49 UTC",
+    "bundle_path": "bundles/testtable902.html.json",
+    "has_bundle": true
   }
 }
