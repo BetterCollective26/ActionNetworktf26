@@ -78,12 +78,12 @@
   },
   "olympics-injury-burden-index.html": {
     "brand": "Action Network",
-    "table_title": "Olympics Injury burden index",
+    "table_title": "olympics injury burden index",
     "file": "olympics-injury-burden-index.html",
     "pages_url": "https://bettercollective26.github.io/ActionNetworktf26/olympics-injury-burden-index.html",
     "github_repo_url": "https://github.com/bettercollective26/ActionNetworktf26",
     "created_by": "gauthambc",
-    "created_at_utc": "2026-02-11 12:02:53 UTC",
+    "created_at_utc": "2026-02-11 12:21:22 UTC",
     "bundle_path": "bundles/olympics-injury-burden-index.html.json",
     "has_bundle": true
   }
