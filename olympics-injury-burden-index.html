@@ -1,4 +1,4 @@
-<!-- BT_PUBLISH_HASH:bar_columns=['Total Injury Burden Score']|bar_fixed_w=200|bar_max_overrides={}|brand='Action Network'|branded_title_color=True|cell_align='Center'|center_titles=False|footer_logo_align='Center'|footer_logo_h=52|footer_notes=''|header_style='ALL CAPS'|heat_columns=['Total Injury Burden Score']|heat_overrides={'Total Injury Burden Score': {}}|heat_strength=0.1|heatmap_style='Branded heatmap'|show_embed=False|show_footer=True|show_footer_notes=False|show_header=True|show_heat_scale=False|show_page_numbers=False|show_pager=False|show_search=False|striped=True|subtitle='Top teams by Total Injury Burden Score based on projected Olympic player pools and latest available injury reporting.'|title='OLYMPIC MEN’S HOCKEY INJURY BURDEN RANKINGS' -->
+<!-- BT_PUBLISH_HASH:bar_columns=['Total Injury Burden Score']|bar_fixed_w=150|bar_max_overrides={}|brand='Action Network'|branded_title_color=True|cell_align='Center'|center_titles=False|footer_logo_align='Center'|footer_logo_h=48|footer_notes=''|header_style='ALL CAPS'|heat_columns=[]|heat_overrides={}|heat_strength=0.55|heatmap_style='Branded heatmap'|show_embed=False|show_footer=True|show_footer_notes=False|show_header=True|show_heat_scale=False|show_page_numbers=True|show_pager=False|show_search=False|striped=True|subtitle='Top teams by Total Injury Burden Score based on projected Olympic player pools and latest available injury reporting.'|title='OLYMPIC MEN’S HOCKEY INJURY BURDEN RANKINGS' -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -48,10 +48,10 @@
       --table-max-h: 680px;
 
       /* ✅ FIXED bar track width (same across ALL bar columns) */
-      --bar-fixed-w: 200px;
+      --bar-fixed-w: 150px;
 
       /* ✅ Footer logo height */
-      --footer-logo-h: 52px;
+      --footer-logo-h: 48px;
     }
 
     .vi-table-embed.align-left { --cell-align:left; }
@@ -384,7 +384,7 @@
 
     /* scroll */
     #bt-block .dw-scroll{
-      max-height: min(var(--table-max-h, 680px), calc(100vh - 240px));
+      max-height: var(--table-max-h);
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-x pan-y;
@@ -498,14 +498,20 @@
     
     /* body cell text clamp to max 3 lines */
     #bt-block .dw-cell{
-      display: block;
       white-space: normal;
       line-height: 1.35;
-      overflow-wrap: normal;
+      overflow-wrap: normal;   /* no mid-word split */
       word-break: normal;
       hyphens: none;
-      overflow: visible;
-      text-overflow: clip;
+    
+      /* body only: max 3 lines */
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+    
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     /* ======================================================
        ✅ FIXED BAR TRACK WIDTH + AUTO COLUMN EXPAND
@@ -820,7 +826,7 @@
           </thead>
           <tbody>
                         <tr><td><div class="dw-cell" title="1">1</div></td><td><div class="dw-cell" title="Sweden">Sweden</div></td><td><div class="dw-cell" title="25">25</div></td>
-                    <td class="dw-bar-td dw-heat-td" style="background-image: linear-gradient(0deg, rgba(var(--brand-500-rgb), 0.100), rgba(var(--brand-500-rgb), 0.100));">
+                    <td class="dw-bar-td">
                       <div class="dw-bar-wrap" title="10.68">
                         <div class="dw-bar-track">
                           <div class="dw-bar-fill" style="width:100.00%;"></div>
@@ -832,7 +838,7 @@
                     </td>
                     </tr>
             <tr><td><div class="dw-cell" title="2">2</div></td><td><div class="dw-cell" title="Switzerland">Switzerland</div></td><td><div class="dw-cell" title="10">10</div></td>
-                    <td class="dw-bar-td dw-heat-td" style="background-image: linear-gradient(0deg, rgba(var(--brand-500-rgb), 0.114), rgba(var(--brand-500-rgb), 0.114));">
+                    <td class="dw-bar-td">
                       <div class="dw-bar-wrap" title="3.59">
                         <div class="dw-bar-track">
                           <div class="dw-bar-fill" style="width:33.61%;"></div>
@@ -844,7 +850,7 @@
                     </td>
                     </tr>
             <tr><td><div class="dw-cell" title="3">3</div></td><td><div class="dw-cell" title="Canada">Canada</div></td><td><div class="dw-cell" title="25">25</div></td>
-                    <td class="dw-bar-td dw-heat-td" style="background-image: linear-gradient(0deg, rgba(var(--brand-500-rgb), 0.114), rgba(var(--brand-500-rgb), 0.114));">
+                    <td class="dw-bar-td">
                       <div class="dw-bar-wrap" title="3.29">
                         <div class="dw-bar-track">
                           <div class="dw-bar-fill" style="width:30.81%;"></div>
@@ -856,7 +862,7 @@
                     </td>
                     </tr>
             <tr><td><div class="dw-cell" title="4">4</div></td><td><div class="dw-cell" title="Finland">Finland</div></td><td><div class="dw-cell" title="24">24</div></td>
-                    <td class="dw-bar-td dw-heat-td" style="background-image: linear-gradient(0deg, rgba(var(--brand-500-rgb), 0.115), rgba(var(--brand-500-rgb), 0.115));">
+                    <td class="dw-bar-td">
                       <div class="dw-bar-wrap" title="2.98">
                         <div class="dw-bar-track">
                           <div class="dw-bar-fill" style="width:27.90%;"></div>
@@ -868,7 +874,7 @@
                     </td>
                     </tr>
             <tr><td><div class="dw-cell" title="5">5</div></td><td><div class="dw-cell" title="Czechia">Czechia</div></td><td><div class="dw-cell" title="13">13</div></td>
-                    <td class="dw-bar-td dw-heat-td" style="background-image: linear-gradient(0deg, rgba(var(--brand-500-rgb), 0.119), rgba(var(--brand-500-rgb), 0.119));">
+                    <td class="dw-bar-td">
                       <div class="dw-bar-wrap" title="1.57">
                         <div class="dw-bar-track">
                           <div class="dw-bar-fill" style="width:14.70%;"></div>
@@ -880,7 +886,7 @@
                     </td>
                     </tr>
             <tr><td><div class="dw-cell" title="6">6</div></td><td><div class="dw-cell" title="Slovakia">Slovakia</div></td><td><div class="dw-cell" title="7">7</div></td>
-                    <td class="dw-bar-td dw-heat-td" style="background-image: linear-gradient(0deg, rgba(var(--brand-500-rgb), 0.120), rgba(var(--brand-500-rgb), 0.120));">
+                    <td class="dw-bar-td">
                       <div class="dw-bar-wrap" title="1.4">
                         <div class="dw-bar-track">
                           <div class="dw-bar-fill" style="width:13.11%;"></div>
