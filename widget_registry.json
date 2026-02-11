@@ -75,5 +75,16 @@
     "created_at_utc": "2026-02-11 00:07:36 UTC",
     "bundle_path": "bundles/kimkarlewis.html.json",
     "has_bundle": true
+  },
+  "olympics-injury-burden-index.html": {
+    "brand": "Action Network",
+    "table_title": "Olympics Injury burden index",
+    "file": "olympics-injury-burden-index.html",
+    "pages_url": "https://bettercollective26.github.io/ActionNetworktf26/olympics-injury-burden-index.html",
+    "github_repo_url": "https://github.com/bettercollective26/ActionNetworktf26",
+    "created_by": "gauthambc",
+    "created_at_utc": "2026-02-11 12:02:53 UTC",
+    "bundle_path": "bundles/olympics-injury-burden-index.html.json",
+    "has_bundle": true
   }
 }
