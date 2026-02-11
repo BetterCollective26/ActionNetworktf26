@@ -3,8 +3,8 @@
   "widget_file_name": "olympics-injury-burden-index.html",
   "brand": "Action Network",
   "created_by": "gauthambc",
-  "created_at_utc": "2026-02-11 12:02:52 UTC",
-  "table_name_words": "Olympics Injury burden index",
+  "created_at_utc": "2026-02-11 12:21:21 UTC",
+  "table_name_words": "olympics injury burden index",
   "widget_title": "",
   "widget_subtitle": "",
   "config": {
@@ -30,7 +30,9 @@
     "bar_max_overrides": {},
     "bar_fixed_w": 200,
     "heat_columns": [],
-    "heat_overrides": {},
+    "heat_overrides": {
+      "Total Injury Burden Score": {}
+    },
     "heat_strength": 0.55,
     "heatmap_style": "Branded heatmap",
     "header_style": "Keep original"
@@ -41,5 +43,7 @@
   "bar_columns": [],
   "bar_max_overrides": {},
   "heat_columns": [],
-  "heat_overrides": {}
+  "heat_overrides": {
+    "Total Injury Burden Score": {}
+  }
 }
