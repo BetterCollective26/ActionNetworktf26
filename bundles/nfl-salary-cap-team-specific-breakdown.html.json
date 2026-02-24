@@ -3,14 +3,14 @@
   "widget_file_name": "nfl-salary-cap-team-specific-breakdown.html",
   "brand": "Action Network",
   "created_by": "gauthambc",
-  "created_at_utc": "2026-02-24 12:48:25 UTC",
+  "created_at_utc": "2026-02-24 13:02:56 UTC",
   "table_name_words": "nfl-salary-cap-team-specific-breakdown",
-  "widget_title": "How Many Households Are Needed to Match the NFL Salary Cap? (By State)",
-  "widget_subtitle": "Using each state\u2019s typical household income to show how many households\u2019 annual earnings equal one team\u2019s $279.2M cap.",
+  "widget_title": "How Many Household Incomes Would It Take to Fund Your NFL Team\u2019s Payroll?",
+  "widget_subtitle": "Ranked from Highest to Lowest by Local Household Income Equivalent",
   "config": {
     "brand": "Action Network",
-    "title": "How Many Households Are Needed to Match the NFL Salary Cap? (By State)",
-    "subtitle": "Using each state\u2019s typical household income to show how many households\u2019 annual earnings equal one team\u2019s $279.2M cap.",
+    "title": "How Many Household Incomes Would It Take to Fund Your NFL Team\u2019s Payroll?",
+    "subtitle": "Ranked from Highest to Lowest by Local Household Income Equivalent",
     "striped": true,
     "show_header": true,
     "center_titles": false,
@@ -27,31 +27,33 @@
     "show_embed": true,
     "show_page_numbers": true,
     "bar_columns": [
-      "No. of Households Needed to Match Salary Cap"
+      "Number of Households Needed to Match Team Cap"
     ],
     "bar_max_overrides": {},
     "bar_fixed_w": 200,
     "heat_columns": [
-      "No. of Households Needed to Match Salary Cap"
+      "Number of Households Needed to Match Team Cap"
     ],
     "heat_overrides": {
-      "No. of Households Needed to Match Salary Cap": {}
+      "No. of Households Needed to Match Salary Cap": {},
+      "Number of Households Needed to Match Team Cap": {}
     },
     "heat_strength": 0.1,
     "heatmap_style": "Branded heatmap",
     "header_style": "ALL CAPS"
   },
   "col_format_rules": {},
-  "csv": "State,Typical Yearly Household Income,League Salary Cap,No. of Households Needed to Match Salary Cap\nWest Virginia,\"$51,615\",\"$279,200,000\",\"5,410\"\nMississippi,\"$52,985\",\"$279,200,000\",\"5,271\"\nLouisiana,\"$55,416\",\"$279,200,000\",\"5,039\"\nArkansas,\"$55,432\",\"$279,200,000\",\"5,037\"\nNew Mexico,\"$56,766\",\"$279,200,000\",\"4,917\"\nKentucky,\"$59,341\",\"$279,200,000\",\"4,705\"\nAlabama,\"$59,609\",\"$279,200,000\",\"4,683\"\nOklahoma,\"$60,096\",\"$279,200,000\",\"4,645\"\nMaine,\"$63,182\",\"$279,200,000\",\"4,418\"\nTennessee,\"$65,254\",\"$279,200,000\",\"4,278\"\nOhio,\"$65,720\",\"$279,200,000\",\"4,249\"\nNevada,\"$66,274\",\"$279,200,000\",\"4,213\"\nIndiana,\"$66,785\",\"$279,200,000\",\"4,180\"\nSouth Carolina,\"$66,818\",\"$279,200,000\",\"4,179\"\nMichigan,\"$66,986\",\"$279,200,000\",\"4,168\"\nNorth Carolina,\"$67,481\",\"$279,200,000\",\"4,137\"\nMontana,\"$67,631\",\"$279,200,000\",\"4,129\"\nFlorida,\"$67,917\",\"$279,200,000\",\"4,111\"\nMissouri,\"$68,545\",\"$279,200,000\",\"4,073\"\nKansas,\"$68,925\",\"$279,200,000\",\"4,051\"\nIowa,\"$69,588\",\"$279,200,000\",\"4,011\"\nSouth Dakota,\"$69,728\",\"$279,200,000\",\"4,003\"\nIdaho,\"$70,214\",\"$279,200,000\",\"3,978\"\nGeorgia,\"$71,355\",\"$279,200,000\",\"3,912\"\nPennsylvania,\"$71,798\",\"$279,200,000\",\"3,887\"\nNorth Dakota,\"$71,970\",\"$279,200,000\",\"3,879\"\nNebraska,\"$72,024\",\"$279,200,000\",\"3,877\"\nWisconsin,\"$72,458\",\"$279,200,000\",\"3,853\"\nWyoming,\"$73,090\",\"$279,200,000\",\"3,820\"\nOregon,\"$75,657\",\"$279,200,000\",\"3,690\"\nTexas,\"$75,780\",\"$279,200,000\",\"3,683\"\nDelaware,\"$75,815\",\"$279,200,000\",\"3,682\"\nVermont,\"$75,979\",\"$279,200,000\",\"3,674\"\nIllinois,\"$78,433\",\"$279,200,000\",\"3,560\"\nArizona,\"$79,964\",\"$279,200,000\",\"3,492\"\nRhode Island,\"$81,854\",\"$279,200,000\",\"3,410\"\nNew York,\"$84,156\",\"$279,200,000\",\"3,318\"\nMinnesota,\"$84,313\",\"$279,200,000\",\"3,312\"\nVirginia,\"$87,249\",\"$279,200,000\",\"3,200\"\nAlaska,\"$88,121\",\"$279,200,000\",\"3,168\"\nUtah,\"$89,168\",\"$279,200,000\",\"3,133\"\nColorado,\"$89,302\",\"$279,200,000\",\"3,126\"\nConnecticut,\"$90,213\",\"$279,200,000\",\"3,094\"\nWashington,\"$91,306\",\"$279,200,000\",\"3,058\"\nCalifornia,\"$91,551\",\"$279,200,000\",\"3,050\"\nNew Hampshire,\"$96,838\",\"$279,200,000\",\"2,884\"\nMaryland,\"$98,461\",\"$279,200,000\",\"2,835\"\nMassachusetts,\"$99,858\",\"$279,200,000\",\"2,797\"\nNew Jersey,\"$101,050\",\"$279,200,000\",\"2,763\"\nHawaii,\"$104,141\",\"$279,200,000\",\"2,681\"\n",
+  "csv": "Team,Team cap budget (cap + carryover),Typical Household Income (Team\u2019s Home State),Number of Households Needed to Match Team Cap\nNew Orleans Saints,\"$300,220,800\",\"$55,416\",\"5,418\"\nCleveland Browns,\"$301,842,660\",\"$65,720\",\"4,593\"\nCincinnati Bengals,\"$281,690,115\",\"$65,720\",\"4,286\"\nTennessee Titans,\"$278,775,700\",\"$65,254\",\"4,273\"\nDetroit Lions,\"$285,440,700\",\"$66,986\",\"4,261\"\nPhiladelphia Eagles,\"$305,775,400\",\"$71,798\",\"4,259\"\nMiami Dolphins,\"$288,775,600\",\"$67,917\",\"4,252\"\nIndianapolis Colts,\"$283,510,900\",\"$66,785\",\"4,245\"\nLas Vegas Raiders,\"$279,980,330\",\"$66,274\",\"4,225\"\nKansas City Chiefs,\"$286,522,468\",\"$68,545\",\"4,180\"\nCarolina Panthers,\"$276,344,900\",\"$67,481\",\"4,095\"\nJacksonville Jaguars,\"$275,220,420\",\"$67,917\",\"4,053\"\nTampa Bay Buccaneers,\"$273,990,800\",\"$67,917\",\"4,035\"\nAtlanta Falcons,\"$282,914,120\",\"$71,355\",\"3,965\"\nPittsburgh Steelers,\"$283,660,200\",\"$71,798\",\"3,950\"\nGreen Bay Packers,\"$279,335,000\",\"$72,458\",\"3,855\"\nDallas Cowboys,\"$284,124,153\",\"$75,780\",\"3,749\"\nChicago Bears,\"$289,775,430\",\"$78,433\",\"3,695\"\nHouston Texans,\"$277,980,250\",\"$75,780\",\"3,668\"\nSan Francisco 49ers,\"$322,146,996\",\"$91,551\",\"3,519\"\nArizona Cardinals,\"$280,660,632\",\"$79,964\",\"3,509\"\nNew York Giants,\"$289,116,317\",\"$84,156\",\"3,437\"\nBuffalo Bills,\"$287,902,775\",\"$84,156\",\"3,421\"\nLos Angeles Rams,\"$312,440,900\",\"$91,551\",\"3,413\"\nMinnesota Vikings,\"$285,990,250\",\"$84,313\",\"3,393\"\nWashington Commanders,\"$286,330,250\",\"$87,249\",\"3,282\"\nDenver Broncos,\"$292,110,500\",\"$89,302\",\"3,271\"\nLos Angeles Chargers,\"$290,870,100\",\"$91,551\",\"3,177\"\nSeattle Seahawks,\"$288,440,150\",\"$91,306\",\"3,159\"\nBaltimore Ravens,\"$295,884,210\",\"$98,461\",\"3,005\"\nNew York Jets,\"$291,330,900\",\"$101,050\",\"2,883\"\nNew England Patriots,\"$274,880,450\",\"$99,858\",\"2,753\"\n",
   "hidden_cols": [],
   "bar_columns": [
-    "No. of Households Needed to Match Salary Cap"
+    "Number of Households Needed to Match Team Cap"
   ],
   "bar_max_overrides": {},
   "heat_columns": [
-    "No. of Households Needed to Match Salary Cap"
+    "Number of Households Needed to Match Team Cap"
   ],
   "heat_overrides": {
-    "No. of Households Needed to Match Salary Cap": {}
+    "No. of Households Needed to Match Salary Cap": {},
+    "Number of Households Needed to Match Team Cap": {}
   }
 }
