@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "widget_file_name": "nfl_salary_cap_league_widehtml.html",
+  "brand": "Action Network",
+  "created_by": "gauthambc",
+  "created_at_utc": "2026-02-24 13:08:52 UTC",
+  "table_name_words": "nfl_salary_cap_league_wide.html",
+  "widget_title": "Where in the U.S. Does the NFL Salary Cap Look Biggest?",
+  "widget_subtitle": "Using each state\u2019s median household income, we calculated how many household incomes it would take to match one NFL team\u2019s salary cap.",
+  "config": {
+    "brand": "Action Network",
+    "title": "Where in the U.S. Does the NFL Salary Cap Look Biggest?",
+    "subtitle": "Using each state\u2019s median household income, we calculated how many household incomes it would take to match one NFL team\u2019s salary cap.",
+    "striped": true,
+    "show_header": true,
+    "center_titles": false,
+    "branded_title_color": true,
+    "show_footer": true,
+    "footer_logo_align": "Center",
+    "footer_logo_h": 54,
+    "show_footer_notes": false,
+    "footer_notes": "",
+    "show_heat_scale": false,
+    "cell_align": "Center",
+    "show_search": true,
+    "show_pager": true,
+    "show_embed": true,
+    "show_page_numbers": true,
+    "bar_columns": [
+      "No. of Households Needed to Match Salary Cap"
+    ],
+    "bar_max_overrides": {},
+    "bar_fixed_w": 200,
+    "heat_columns": [
+      "No. of Households Needed to Match Salary Cap"
+    ],
+    "heat_overrides": {
+      "No. of Households Needed to Match Salary Cap": {},
+      "Number of Households Needed to Match Team Cap": {}
+    },
+    "heat_strength": 0.1,
+    "heatmap_style": "Branded heatmap",
+    "header_style": "ALL CAPS"
+  },
+  "col_format_rules": {},
+  "csv": "State,Typical Yearly Household Income,League Salary Cap,No. of Households Needed to Match Salary Cap\nWest Virginia,\"$51,615\",\"$279,200,000\",\"5,410\"\nMississippi,\"$52,985\",\"$279,200,000\",\"5,271\"\nLouisiana,\"$55,416\",\"$279,200,000\",\"5,039\"\nArkansas,\"$55,432\",\"$279,200,000\",\"5,037\"\nNew Mexico,\"$56,766\",\"$279,200,000\",\"4,917\"\nKentucky,\"$59,341\",\"$279,200,000\",\"4,705\"\nAlabama,\"$59,609\",\"$279,200,000\",\"4,683\"\nOklahoma,\"$60,096\",\"$279,200,000\",\"4,645\"\nMaine,\"$63,182\",\"$279,200,000\",\"4,418\"\nTennessee,\"$65,254\",\"$279,200,000\",\"4,278\"\nOhio,\"$65,720\",\"$279,200,000\",\"4,249\"\nNevada,\"$66,274\",\"$279,200,000\",\"4,213\"\nIndiana,\"$66,785\",\"$279,200,000\",\"4,180\"\nSouth Carolina,\"$66,818\",\"$279,200,000\",\"4,179\"\nMichigan,\"$66,986\",\"$279,200,000\",\"4,168\"\nNorth Carolina,\"$67,481\",\"$279,200,000\",\"4,137\"\nMontana,\"$67,631\",\"$279,200,000\",\"4,129\"\nFlorida,\"$67,917\",\"$279,200,000\",\"4,111\"\nMissouri,\"$68,545\",\"$279,200,000\",\"4,073\"\nKansas,\"$68,925\",\"$279,200,000\",\"4,051\"\nIowa,\"$69,588\",\"$279,200,000\",\"4,011\"\nSouth Dakota,\"$69,728\",\"$279,200,000\",\"4,003\"\nIdaho,\"$70,214\",\"$279,200,000\",\"3,978\"\nGeorgia,\"$71,355\",\"$279,200,000\",\"3,912\"\nPennsylvania,\"$71,798\",\"$279,200,000\",\"3,887\"\nNorth Dakota,\"$71,970\",\"$279,200,000\",\"3,879\"\nNebraska,\"$72,024\",\"$279,200,000\",\"3,877\"\nWisconsin,\"$72,458\",\"$279,200,000\",\"3,853\"\nWyoming,\"$73,090\",\"$279,200,000\",\"3,820\"\nOregon,\"$75,657\",\"$279,200,000\",\"3,690\"\nTexas,\"$75,780\",\"$279,200,000\",\"3,683\"\nDelaware,\"$75,815\",\"$279,200,000\",\"3,682\"\nVermont,\"$75,979\",\"$279,200,000\",\"3,674\"\nIllinois,\"$78,433\",\"$279,200,000\",\"3,560\"\nArizona,\"$79,964\",\"$279,200,000\",\"3,492\"\nRhode Island,\"$81,854\",\"$279,200,000\",\"3,410\"\nNew York,\"$84,156\",\"$279,200,000\",\"3,318\"\nMinnesota,\"$84,313\",\"$279,200,000\",\"3,312\"\nVirginia,\"$87,249\",\"$279,200,000\",\"3,200\"\nAlaska,\"$88,121\",\"$279,200,000\",\"3,168\"\nUtah,\"$89,168\",\"$279,200,000\",\"3,133\"\nColorado,\"$89,302\",\"$279,200,000\",\"3,126\"\nConnecticut,\"$90,213\",\"$279,200,000\",\"3,094\"\nWashington,\"$91,306\",\"$279,200,000\",\"3,058\"\nCalifornia,\"$91,551\",\"$279,200,000\",\"3,050\"\nNew Hampshire,\"$96,838\",\"$279,200,000\",\"2,884\"\nMaryland,\"$98,461\",\"$279,200,000\",\"2,835\"\nMassachusetts,\"$99,858\",\"$279,200,000\",\"2,797\"\nNew Jersey,\"$101,050\",\"$279,200,000\",\"2,763\"\nHawaii,\"$104,141\",\"$279,200,000\",\"2,681\"\n",
+  "hidden_cols": [],
+  "bar_columns": [
+    "No. of Households Needed to Match Salary Cap"
+  ],
+  "bar_max_overrides": {},
+  "heat_columns": [
+    "No. of Households Needed to Match Salary Cap"
+  ],
+  "heat_overrides": {
+    "No. of Households Needed to Match Salary Cap": {},
+    "Number of Households Needed to Match Team Cap": {}
+  }
+}
