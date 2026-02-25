@@ -163,5 +163,16 @@
     "created_at_utc": "2026-02-24 13:08:53 UTC",
     "bundle_path": "bundles/nfl_salary_cap_league_widehtml.html.json",
     "has_bundle": true
+  },
+  "states-sleep-loss-score.html": {
+    "brand": "Action Network",
+    "table_title": "Which States Lose the Most Sleep Checking Sports Updates?",
+    "file": "states-sleep-loss-score.html",
+    "pages_url": "https://bettercollective26.github.io/ActionNetworktf26/states-sleep-loss-score.html",
+    "github_repo_url": "https://github.com/bettercollective26/ActionNetworktf26",
+    "created_by": "gauthambc",
+    "created_at_utc": "2026-02-25 10:33:15 UTC",
+    "bundle_path": "bundles/states-sleep-loss-score.html.json",
+    "has_bundle": true
   }
 }
